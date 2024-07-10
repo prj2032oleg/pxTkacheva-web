@@ -1,47 +1,4 @@
 const dataJson = [{
-    "id": "site-header",
-    "slides": [
-      {
-        "backgroundImage": "assets/images/tkacheva/header-1.jpg",
-        "content": {
-          "alignment": "text-left",
-          "title": "",
-          "subtitle": "",
-          "buttons": []
-        }
-      },
-      {
-        "backgroundImage": "assets/images/tkacheva/header-3.jpg",
-        "content": {
-          "alignment": "text-right",
-          "title": "Herzlich Willkommen",
-          "subtitle": "Zahnarztpraxis Tkacheva",
-          "buttons": [
-            {
-              "text": "Kontakt",
-              "link": "#kontakt",
-              "class": "btn btn-charity-default-o"
-            },
-            {
-              "text": "07666 - 91 10 10",
-              "link": "tel:+497666912020",
-              "class": "btn btn-charity-default"
-            }
-          ]
-        }
-      },
-      {
-        "backgroundImage": "assets/images/tkacheva/header-3.jpg",
-        "content": {
-          "alignment": "text-left",
-          "title": "",
-          "subtitle": "",
-          "buttons": []
-        }
-      }
-    ]
-  },
-  {
     "id": "about",
     "content": [
       {

@@ -1,77 +1,3 @@
-function updateHeaderContent(headerData) {
-  let header = document.getElementById(headerData.id);
-  
-  const slidesContainer = document.createElement('ul');
-    slidesContainer.className = 'slides';
-    headerData.slides.forEach(slide => {
-      const li = document.createElement('li');
-      li.style.backgroundImage = `url(${slide.backgroundImage})`;
-
-      const wrapperDiv = document.createElement('div');
-      wrapperDiv.className = 'header-classic wrapper-table overlay-01';
-
-      const valignCenterDiv = document.createElement('div');
-      valignCenterDiv.className = 'valign-center';
-
-      const containerDiv = document.createElement('div');
-      containerDiv.className = 'container';
-
-      const colDiv = document.createElement('div');
-      colDiv.className = 'col-md-10 col-md-offset-1';
-
-      const introDiv = document.createElement('div');
-      introDiv.className = `intro ${slide.content.alignment}`;
-
-      const titleH1 = document.createElement('h1');
-      titleH1.textContent = slide.content.title || '';
-      introDiv.appendChild(titleH1);
-      if (!slide.content.title) {
-        introDiv.appendChild(document.createElement('br'));
-      }
-
-      const subtitleP = document.createElement('p');
-      subtitleP.className = 'subtitle';
-      subtitleP.textContent = slide.content.subtitle || '';
-      introDiv.appendChild(subtitleP);
-      if (!slide.content.subtitle) {
-        introDiv.appendChild(document.createElement('br'));
-      }
-
-      if (slide.content.buttons.length > 0) {
-        const btnGroupDiv = document.createElement('div');
-        btnGroupDiv.className = 'btn-cal-group';
-      
-        slide.content.buttons.forEach(button => {
-          const a = document.createElement('a');
-          a.textContent = button.text;
-          a.href = button.link;
-          a.className = button.class;
-          btnGroupDiv.appendChild(a);
-        });
-        for (let i = 0; i < 2; i++) {
-          btnGroupDiv.appendChild(document.createElement('br'));
-        }
-        introDiv.appendChild(btnGroupDiv);
-      } else {
-        const brDiv = document.createElement('div');
-        for (let i = 0; i < 5; i++) {
-          brDiv.appendChild(document.createElement('br'));
-        }
-        introDiv.appendChild(brDiv);
-      }
-
-      colDiv.appendChild(introDiv);
-      containerDiv.appendChild(colDiv);
-      valignCenterDiv.appendChild(containerDiv);
-      wrapperDiv.appendChild(valignCenterDiv);
-      li.appendChild(wrapperDiv);
-      slidesContainer.appendChild(li);
-    });
-
-  header.innerHTML = '';
-  header.appendChild(slidesContainer);
-};
-
 function updateAboutContent(aboutData) {
     const section = document.getElementById(aboutData.id);
     const colElements = section.querySelectorAll('.col-md-4');
@@ -325,17 +251,15 @@ function updateContent(type) {
   }
 
   try {
-    updateAboutContent(data[1]);
-    updateGalleryContent(data[2]);
-    updateTeamContent(data[3]);
-    updateLeistungContent(data[4]);
-    updateKontaktContent(data[5]);
-    updateAdresseContent(data[6]);
+    updateAboutContent(data[0]);
+    updateGalleryContent(data[1]);
+    updateTeamContent(data[2]);
+    updateLeistungContent(data[3]);
+    updateKontaktContent(data[4]);
+    updateAdresseContent(data[5]);
   } catch (error) {
     console.error('Error for refresh content:', error);
   }
 
   window.location.hash = type;
 };
-
-//updateHeaderContent(hash === '#das' ? dataJson[0] : dateJson[0]);
