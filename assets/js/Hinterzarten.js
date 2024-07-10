@@ -12,7 +12,7 @@ const dataJson = [{
       },
       {
         "type": "about-p",
-        "text": "Was fängt mit einem schönen Lächeln an? Eine erfolgreiche Arbeitsbeziehung, eine gemeinsame Zukunft oder langjährige Freundschaft? In allen Lebenssituationen ist Ihr strahlendes Lächeln wie ein Schlüssel zu allen Türen. Für uns ist es ganz wichtig, unsere Patienten in jedem Schritt des Lebens professionell zu unterstützen. Deswegen verbessern wir unsere Fähigkeiten ständig durch verschiedene Fortbildungen. Wir motivieren, fördern und fordern unser Team in allen Bereichen. So halten wir Kontakt zu führenden deutschen Wissenschaftlern an den Universitäten Freiburg, Ulm, München und Berlin – damit sind wir der Grundlagenforschung sehr nahe und immer auf dem aktuellen Stand.<br><br>Wir würden uns sehr freuen, in jeder Lebenssituation mithilfe eines schönen Lächelns Ihren Erfolg zu begleiten.<br><br>Ihre<br>Zahnarztpraxis Tkacheva<br><br>"
+        "text": "Herzlich willkommen in der Zahnarztpraxis Tatiana Tkacheva in Hinterzarten! Unsere Zahnarztpraxis bietet Ihnen eine umfassende zahnmedizinische Betreuung in einer angenehmen und freundlichen Atmosphäre. Wir legen großen Wert auf individuelle Beratung und maßgeschneiderte Behandlungskonzepte, um Ihre Zahngesundheit optimal zu unterstützen. Unser Leistungsspektrum umfasst eine Vielzahl von Behandlungen. Von der Prophylaxe, sowohl für die Erwachsenen als auch für unsere kleinen Patienten, und regelmäßigen Kontrolluntersuchungen über ästhetische Zahnheilkunde wie Zahnaufhellungen und Veneers bis hin zu hochwertigen Füllungen und Zahnersatz auf Implantate. Außerdem beraten und behandeln wir Sie gerne im Bereich der Implantologie. Um Ihnen all das bieten zu können besuchen unsere Spezialisten regelmäßig Fortbildungen und Schulungen um ihr Wissen zu erweitern und Sie bestmöglich behandeln zu können. Das Wohlbefinden unserer Patienten steht bei uns an erster Stelle. Unser erfahrenes Team sorgt dafür, dass Sie sich bei jedem Besuch gut aufgehoben fühlen. Ob es um die Erhaltung Ihrer Zahngesundheit oder um ästhetische Verbesserungen geht, wir nehmen uns die Zeit, um auf Ihre individuellen Bedürfnisse einzugehen und die beste Lösung für Sie zu finden.<br><br>Ihre<br>Zahnarztpraxis Tkacheva<br><br>"
       }
     ],
     "columns": [
@@ -24,7 +24,7 @@ const dataJson = [{
           },
           {
             "type": "p",
-            "text": "Mo. - Do.: 09:00 - 18:00 Uhr<br>Fr.: 08:00 - 12:00 Uhr<br><br>"
+            "text": "Mo, Di, Do,: 08:00-12:00; 14:00-18:00,<br>Mi, Fr: 08:00-12:00<br><br>"
           }
         ]
       },
@@ -36,7 +36,7 @@ const dataJson = [{
           },
           {
             "type": "p",
-            "text": "Zahnarztpraxis Tkacheva<br>Hauptstr. 92<br>79211 Denzlingen<br><br>"
+            "text": "Zahnarztpraxis Tkacheva<br>Freiburger Straße 3,<br>79856 Hinterzartenn<br><br>"
           }
         ]
       },
@@ -48,7 +48,7 @@ const dataJson = [{
           },
           {
             "type": "a",
-            "text": "Tel: 07666 - 91 10 10",
+            "text": "Tel: 07652 1331",
             "href": "#",
             "class": ["get-started-btn", "btn", "btn-charity-default"]
           }
@@ -210,15 +210,15 @@ const dataJson = [{
     "columns": [
       {
         "title": "Adresse", 
-        "designation": "Zahnarztpraxis Tkacheva<br>Hauptstr. 92<br>79211 Denzlingen<br><br></br>"
+        "designation": "Zahnarztpraxis Tkacheva<br>Freiburger Straße 3,<br>79856 Hinterzarten<br><br></br>"
       },
       {
         "title": "Kontakt", 
-        "designation": "Telefon: <a href='tel:+497666912020' style='color:white'>07666 - 91 20 20</a><br>Fax: 07666 - 91 20 30<br>E-Mail: <a href='mailto:info@px-tkacheva.de' style='color:white'>info@px-tkacheva.de</a><br></br>"
+        "designation": "Telefon: <a href='tel:+497652 1331' style='color:white'>07652 - 13 31</a><br>Fax: 07652 - 13 31<br>E-Mail: <a href='mailto:za.hinterzarten@gmx.de' style='color:white'>za.hinterzarten@gmx.de</a><br></br>"
       },
       {
         "title": "Praxiszeiten", 
-        "designation": "Mo. - Do.: 08:00 - 18:00 Uhr<br>Fr.: 08:00 - 12:00 Uhr<br><br></br>"
+        "designation": "Mo, Di, Do,: 08:00-12:00; 14:00-18:00,<br>Mi, Fr: 08:00-12:00<br><br></br>"
       },
     ]
   }

@@ -244,7 +244,7 @@ window.addEventListener('load', () => {
 });
 
 function updateContent(type) {
-  const data = type === 'freiburg' ? dataJson : dateJson;
+  const data = type === 'hinterzarten' ? dataJson : dateJson;
   if (!data) {
     console.error('Error: data not found');
     return;

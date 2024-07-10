@@ -12,7 +12,7 @@ const dateJson = [{
       },
       {
         "type": "about-p",
-        "text": "Was fängt mit einem schönen Lächeln an? Eine erfolgreiche Arbeitsbeziehung, eine gemeinsame Zukunft oder langjährige Freundschaft? In allen Lebenssituationen ist Ihr strahlendes Lächeln wie ein Schlüssel zu allen Türen. Für uns ist es ganz wichtig, unsere Patienten in jedem Schritt des Lebens professionell zu unterstützen. Deswegen verbessern wir unsere Fähigkeiten ständig durch verschiedene Fortbildungen. Wir motivieren, fördern und fordern unser Team in allen Bereichen. So halten wir Kontakt zu führenden deutschen Wissenschaftlern an den Universitäten Freiburg, Ulm, München und Berlin – damit sind wir der Grundlagenforschung sehr nahe und immer auf dem aktuellen Stand.<br><br>Wir würden uns sehr freuen, in jeder Lebenssituation mithilfe eines schönen Lächelns Ihren Erfolg zu begleiten.<br><br>Ihre<br>Zahnarztpraxis Tkacheva<br><br>"
+        "text": "Herzlich willkommen in der Zahnarztpraxis Tatiana Tkacheva in Freiburg Herdern! Unsere Zahnarztpraxis bietet Ihnen ein umfassendes Spektrum an zahnmedizinischen Leistungen in einer freundlichen und einladenden Atmosphäre. Von der Vorsorge und Prophylaxe, sowohl für die Erwachsenen als auch für unsere kleinen Patienten, über ästhetische Zahnheilkunde wie Zahnaufhellungen und Veneers bis hin zu hochwertigen Füllungen und Zahnersatz. Unsere Mitarbeiter bilden sich immer weiter, damit sie Ihnen die besten Behandlungsmöglichkeiten anbieten können. Unsere Praxisphilosophie basiert auf persönlicher und ausführlicher Beratung, um für jeden Patienten die optimale Behandlung zu finden. Ihre Zahngesundheit und Ihr Wohlbefinden stehen für uns an erster Stelle. Mit modernster Technik und einem erfahrenen Team sorgen wir dafür, dass Sie sich bei uns gut aufgehoben fühlen.<br><br>Ihre<br>Zahnarztpraxis Tkacheva<br><br>"
       }
     ],
     "columns": [
@@ -24,7 +24,7 @@ const dateJson = [{
           },
           {
             "type": "p",
-            "text": "Mo. - Do.: 09:00 - 18:00 Uhr<br>Fr.: 08:00 - 12:00 Uhr<br><br>"
+            "text": "Mo,Di: 08:00-18:00; Mi: 12:00-17:30;<br>Do, Fr: 08:00-13:00<br><br>"
           }
         ]
       },
@@ -36,7 +36,7 @@ const dateJson = [{
           },
           {
             "type": "p",
-            "text": "Zahnarztpraxis Tkacheva<br>Hauptstr. 92<br>79211 Denzlingen<br><br>"
+            "text": "Zahnarztpraxis Tkacheva<br>Hauptstraße 13A,<br>79104 Freiburg im Breisgau<br><br>"
           }
         ]
       },
@@ -48,7 +48,7 @@ const dateJson = [{
           },
           {
             "type": "a",
-            "text": "Tel: 07666 - 91 15 15",
+            "text": "Tel: 0761 - 36 331",
             "href": "#",
             "class": ["get-started-btn", "btn", "btn-charity-default"]
           }
@@ -197,15 +197,15 @@ const dateJson = [{
     "columns": [
       {
         "title": "Adresse", 
-        "designation": "Zahnarztpraxis Tkacheva<br>Hauptstr. 92<br>79211 Denzlingen<br><br></br>"
+        "designation": "Zahnarztpraxis Tkacheva<br>Hauptstraße 13A,<br>79104 Freiburg im Breisgau<br><br></br>"
       },
       {
         "title": "Kontakt", 
-        "designation": "Telefon: <a href='tel:+497666912020' style='color:white'>07666 - 91 20 20</a><br>Fax: 07666 - 91 20 30<br>E-Mail: <a href='mailto:info@px-tkacheva.de' style='color:white'>info@px-tkacheva.de</a><br></br>"
+        "designation": "Telefon: <a href='tel:+4976136331' style='color:white'>0761 - 36-331</a><br>Fax: 0761 - 36-331<br>E-Mail: <a href='mailto:fr.tkacheva@gmx.de' style='color:white'>fr.tkacheva@gmx.de</a><br></br>"
       },
       {
         "title": "Praxiszeiten", 
-        "designation": "Mo. - Do.: 08:00 - 18:00 Uhr<br>Fr.: 08:00 - 12:00 Uhr<br><br></br>"
+        "designation": "Mo,Di: 08:00-18:00; Mi: 12:00-17:30;<br>Do, Fr: 08:00-13:00<br><br></br>"
       },
     ]
   }
