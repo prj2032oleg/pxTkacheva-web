@@ -64,22 +64,22 @@ const dataJson = [{
     },
     "gallery": [
       {
-        "href": "assets/images/tkacheva/praxis/p1.jpg"
+        "href": "assets/images/tkacheva/praxis/pxHinterzarten/01.JPG"
       },
       {
-        "href": "assets/images/tkacheva/praxis/p2.jpg"
+        "href": "assets/images/tkacheva/praxis/pxHinterzarten/02.JPG"
       },
       {
-        "href": "assets/images/tkacheva/praxis/p3.jpg"
+        "href": "assets/images/tkacheva/praxis/pxHinterzarten/03.JPG"
       },
       {
-        "href": "assets/images/tkacheva/praxis/p4.jpg"
+        "href": "assets/images/tkacheva/praxis/pxHinterzarten/04.JPG"
       },
       {
-        "href": "assets/images/tkacheva/praxis/p5.jpg"
+        "href": "assets/images/tkacheva/praxis/pxHinterzarten/05.JPG"
       },
       {
-        "href": "assets/images/tkacheva/praxis/p6.jpg"
+        "href": "assets/images/tkacheva/praxis/pxHinterzarten/06.JPG"
       }
     ]
   },
@@ -96,73 +96,39 @@ const dataJson = [{
         "designation": "Zahnärztin & Praxisinhaberin" 
       },
       {
-        "src": "assets/images/tkacheva/team/v3/DrFranziskaEisenmenger.png",
-        "title": "Dr. med. dent. Franziska Eisenmenger",
-        "designation": "Zahnärztin",
-        "href": "assets/vita_eisenmenger.pdf", 
-        "link": "ZUR VITA"
-      },
-      {
-        "src": "assets/images/tkacheva/team/v3/DrUteKlaffke.png",
-        "title": "Dr. med. dent. Ute Klaffke", 
-        "designation": "Zahnärztin", 
-        "href": "assets/vita_Klaffke.pdf", 
-        "link": "ZUR VITA"
-      },
-      {
-        "src": "assets/images/tkacheva/team/v3/Samanta%20Heuser_1.png",
-        "title": "Samanta Heuser", 
-        "designation": "Prophylaxe, QM-Beauftragte" 
-      },
-      {
-        "src": "assets/images/tkacheva/team/v3/FloraNuraj.png",
-        "title": "Florida Nuraj", 
-        "designation": "Verwaltung, Abrechnung" 
-      },
-      {
-        "src": "assets/images/tkacheva/team/v3/Galyna_Tsoma_1.png",
-        "title": "Galyna Tsoma", 
-        "designation": "Stuhlassistenz"
-      },
-      {
-        "src": "assets/images/tkacheva/team/v3/Nahla Fakhry (1).png",
-        "title": "Fakhry Dawod Nahla", 
-        "designation": "Stuhlassistenz"
-      },
-      {
-        "src": "assets/images/tkacheva/team/v3/Leonita%20Nuraj_1.png",
-        "title": "Nuraj Leonita", 
-        "designation": "Auszubildende"
-      },
-      {
-        "src": "assets/images/tkacheva/team/v3/AlfiraSimani_1.png",
-        "title": "Alfira Simani", 
-        "designation": "Rezeption"
-      },
-      {
-        "src": "assets/images/tkacheva/team/v3/RenateWeidinger.png", 
-				"title": "Renate Weidinger",
-				"designation": "Verwaltung"
-      },
-      {
-        "src": "assets/images/tkacheva/team/v3/SandraSchillinger_1.png",
-				"title": "Sandra Schillinger",
-				"designation": "Prophylaxe, Stuhlassistenz"
-      },
-      {
-        "src": "assets/images/tkacheva/team/v3/Aaliyah_Barthelemy_1.png", 
-				"title": "Aaliyah Barthelemy",
-				"designation": "Auszubildende"
+        "src": "assets/images/tkacheva/team/v3/man.png",
+        "title": "Manfred Sauer",
+        "designation": "Zahnarzt",
       },
       {
         "src": "assets/images/tkacheva/team/v3/NinmarMalki.png",
-				"title": "Ninmar Malki",
-				"designation": "Vorbereitungsassistent"
+        "title": "Ninmar Malki",
+        "designation": "Vorbereitungsassistent"
       },
       {
-        "src": "assets/images/tkacheva/team/v3/HamdaAbdirahman1.png",
-				"title": "Hamda Abdirahman",
-				"designation": "Auszubildende"
+        "src": "assets/images/tkacheva/team/v3/SandraSchillinger_1.png",
+        "title": "Sandra Schillinger",
+        "designation": "Praxismanagerin, Prophylaxe"
+      },
+      {
+        "src": "assets/images/tkacheva/team/v3/RenateWeidinger.png",
+        "title": "Renate Weidinger",
+        "designation": "Verwaltung"
+      },
+      {
+        "src": "assets/images/tkacheva/team/v3/t1v3.png",
+        "title": "Maria Rombach",
+        "designation": "Stuhlassistenz"
+      },
+      {
+        "src": "assets/images/tkacheva/team/v3/t1v3.png",
+        "title": "Maria Kreiler",
+        "designation": "Prophylaxe, Stuhlassistenz"
+      },
+      {
+        "src": "assets/images/tkacheva/team/v3/t1v3.png",
+        "title": "Sofia Somai",
+        "designation": "Auszubildende"
       }
     ]
   },
@@ -202,7 +168,7 @@ const dataJson = [{
     "id": "kontakt",
     "content": {
       "type": "iframe",
-      "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2666.1801156497677!2d7.87653231564658!3d48.06816617921801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47911eb868a56c6f%3A0x75496796393cedf1!2sHauptstra%C3%9Fe%2C+79211+Denzlingen!5e0!3m2!1sde!2sde!4v1549362780295"
+      "src": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2674.5461625317294!2d8.101869777405126!3d47.90646876722097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4790fa7bade52027%3A0x5d7d97f7953264f0!2sFreiburger%20Str.%203%2C%2079856%20Hinterzarten!5e0!3m2!1sen!2sde!4v1720648359745!5m2!1sen!2sde"
     }
   },
   {
