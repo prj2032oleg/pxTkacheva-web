@@ -1,14 +1,14 @@
-function updateAboutContent(aboutData) {
+function updateAboutContent(aboutData, locale) {
     const section = document.getElementById(aboutData.id);
     const colElements = section.querySelectorAll('.col-md-4');
-
+    
     aboutData.content.forEach(item => {
       const element = document.getElementById(item.type);
-      if (item.type === "img") {
+      if (item.type === "about-img") {
         element.src = item.src;
         element.alt = item.alt;
       } else {
-        element.innerHTML = item.text;
+        element.innerHTML = item.text[locale];
       }
     });
     aboutData.columns.forEach((column, index) => {
@@ -23,17 +23,18 @@ function updateAboutContent(aboutData) {
           });
           newElement.textContent = el.text;
         } else {
-          newElement.innerHTML = el.text;
+          newElement.innerHTML = el.text[locale];
         }
         col.appendChild(newElement);
       });
     })
 };
 
-function updateGalleryContent(galleryData) {
+function updateGalleryContent(galleryData, locale) {
   const section = document.getElementById(galleryData.id);
-  document.getElementById(galleryData.content.type).textContent = galleryData.content.text;
-
+  document.getElementById(galleryData.content.type)
+  .textContent = galleryData.content.text[locale];
+  
   const galleryGrid = section.querySelector('.row.gallery-grid');
   galleryGrid.innerHTML = '';
 
@@ -66,9 +67,11 @@ function updateGalleryContent(galleryData) {
   });
 };
 
-function updateTeamContent(teamData) {
+function updateTeamContent(teamData, locale) {
   const section = document.getElementById(teamData.id);
-  document.getElementById(teamData.content.type).textContent = teamData.content.text;
+  document.getElementById(teamData.content.type)
+  .textContent = teamData.content.text[locale];
+  
   const container = section.querySelector('.container');
   const rows = section.querySelectorAll('.row.team');
   rows.forEach(row => {
@@ -85,18 +88,18 @@ function updateTeamContent(teamData) {
     const image = document.createElement('img');
     image.className = 'img-responsive';
     image.src = team.src;
-    image.alt = team.title;
+    image.alt = team.title.de;
   
     const personalInfo = document.createElement('div');
     personalInfo.className = 'personal-info';
   
     const titleP = document.createElement('p');
     titleP.className = 'title';
-    titleP.textContent = team.title;
+    titleP.textContent = team.title[locale];
   
     const designationP = document.createElement('p');
     designationP.className = 'designation';
-    designationP.textContent = team.designation;
+    designationP.textContent = team.designation[locale];
   
     personalInfo.appendChild(titleP);
     personalInfo.appendChild(designationP);
@@ -136,15 +139,15 @@ function updateTeamContent(teamData) {
   });
 };
 
-function updateLeistungContent(leistungData) {
+function updateLeistungContent(leistungData, locale) {
   const section = document.getElementById(leistungData.id);
   leistungData.content.forEach(item => {
     const element = document.getElementById(item.type);
-    if (item.type === "img") {
+    if (item.type === "leistung-img") {
       element.src = item.src;
       element.alt = item.alt;
     } else {
-      element.innerHTML = item.text;
+      element.innerHTML = item.text[locale];
     }
   });
 
@@ -165,7 +168,7 @@ function updateLeistungContent(leistungData) {
     toggleLink.dataset.toggle = 'collapse';
     toggleLink.dataset.parent = '#accordion';
     toggleLink.href = `#support${index + 1}`;
-    toggleLink.textContent = item.question;
+    toggleLink.textContent = item.question[locale];
     toggleLink.className = index === 0 ? '' : 'collapsed';
 
     const panelCollapseDiv = document.createElement('div');
@@ -174,7 +177,7 @@ function updateLeistungContent(leistungData) {
 
     const panelBodyDiv = document.createElement('div');
     panelBodyDiv.className = 'panel-body';
-    panelBodyDiv.innerHTML = item.answer;
+    panelBodyDiv.innerHTML = item.answer[locale];
 
     panelTitleH4.appendChild(toggleLink);
     panelHeadingDiv.appendChild(panelTitleH4);
@@ -191,7 +194,7 @@ function updateKontaktContent(kontaktData) {
   section.querySelector(kontaktData.content.type).src = kontaktData.content.src;
 };
 
-function updateAdresseContent(adresseData) {
+function updateAdresseContent(adresseData, locale) {
   const section = document.getElementById(adresseData.id);
   const row = section.querySelector('.row');
   row.innerHTML = '';
@@ -205,7 +208,7 @@ function updateAdresseContent(adresseData) {
 
     const title = document.createElement('h3');
     title.className = 'widgets-title';
-    title.textContent = item.title;
+    title.textContent = item.title[locale];
 
     const designation = document.createElement('p');
     designation.innerHTML = item.designation;
@@ -227,36 +230,48 @@ function updateAdresseContent(adresseData) {
 function getUrlParameters() {
   return window.location.hash;
 }
-let hash;
+
 window.addEventListener('load', () => {
-  hash = getUrlParameters();
-  
+  let hash = getUrlParameters();
+  console.log(hash)
   switch (hash) {
     case '#freiburg':
-      updateContent('freiburg');
+      updateContent('freiburg', 'de');
       break;
     case '#hinterzarten':
-      updateContent('hinterzarten');
+      updateContent('hinterzarten', 'de');
+      break;
+    case '#freiburg-ru':
+      updateContent('freiburg', 'ru');
+      break;
+    case '#hinterzarten-ru':
+      updateContent('hinterzarten', 'ru');
       break;
     default:
       console.log('Not action for the Packages');
   }
 });
 
-function updateContent(type) {
-  const data = type === 'hinterzarten' ? dataJson : dateJson;
+function updateContent(type, locale) {
+  if (type === 'denzlingen') {
+    history.pushState("", document.title, window.location.pathname + window.location.search);
+    location.reload();
+    return
+  };
+
+  const data = (type === 'hinterzarten' || type === 'hinterzarten-ru') ? Hinterzarten : Freiburg;
   if (!data) {
     console.error('Error: data not found');
     return;
   }
 
   try {
-    updateAboutContent(data[0]);
-    updateGalleryContent(data[1]);
-    updateTeamContent(data[2]);
-    updateLeistungContent(data[3]);
+    updateAboutContent(data[0], locale);
+    updateGalleryContent(data[1], locale);
+    updateTeamContent(data[2], locale);
+    updateLeistungContent(data[3], locale);
     updateKontaktContent(data[4]);
-    updateAdresseContent(data[5]);
+    updateAdresseContent(data[5], locale);
   } catch (error) {
     console.error('Error for refresh content:', error);
   }

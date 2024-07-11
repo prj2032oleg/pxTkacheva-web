@@ -17,9 +17,37 @@
     background: rgba(255, 255, 255, 0.3);
     border-radius: 0;
     border: 0;
-    padding-left: 5px;
+    padding: 0 5px;
     box-shadow: none;
-    min-width: 300px;
+    min-width: 230px;
+}
+
+.main-navigation .dropdown-menu:hover {
+    display: block;
+}
+
+.main-navigation .nav-item {
+    cursor: pointer;
+}
+
+.main-navigation .dropdown-item {
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.main-navigation .dropdown-item:hover {
+    background: transparent;
+    border-bottom: 1px solid #FF6699;
+    color: #FF6699;
+    padding-bottom: 5px;
+    transition: all 0.4s ease;
+}
+
+@media only screen and (max-width: 768px) {
+    .main-navigation .dropdown-item {
+        color: #10305f;
+        font-size: 15px;
+    }
 }
 
 .main-navigation .dropdown-menu li span {

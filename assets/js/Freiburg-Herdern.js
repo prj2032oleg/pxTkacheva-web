@@ -1,9 +1,12 @@
-const dateJson = [{
+const Freiburg = [{
     "id": "about",
     "content": [
       {
         "type": "about-h2",
-        "text": "Über Uns"
+        "text": {
+          "de": "Über Uns",
+          "ru": "О нас"
+        }
       },
       {
         "type": "about-img",
@@ -12,7 +15,10 @@ const dateJson = [{
       },
       {
         "type": "about-p",
-        "text": "Herzlich willkommen in der Zahnarztpraxis Tatiana Tkacheva in Freiburg Herdern! Unsere Zahnarztpraxis bietet Ihnen ein umfassendes Spektrum an zahnmedizinischen Leistungen in einer freundlichen und einladenden Atmosphäre. Von der Vorsorge und Prophylaxe, sowohl für die Erwachsenen als auch für unsere kleinen Patienten, über ästhetische Zahnheilkunde wie Zahnaufhellungen und Veneers bis hin zu hochwertigen Füllungen und Zahnersatz. Unsere Mitarbeiter bilden sich immer weiter, damit sie Ihnen die besten Behandlungsmöglichkeiten anbieten können. Unsere Praxisphilosophie basiert auf persönlicher und ausführlicher Beratung, um für jeden Patienten die optimale Behandlung zu finden. Ihre Zahngesundheit und Ihr Wohlbefinden stehen für uns an erster Stelle. Mit modernster Technik und einem erfahrenen Team sorgen wir dafür, dass Sie sich bei uns gut aufgehoben fühlen.<br><br>Ihre<br>Zahnarztpraxis Tkacheva<br><br>"
+        "text": {
+          "de": "Herzlich willkommen in der Zahnarztpraxis Tatiana Tkacheva in Freiburg Herdern! Unsere Zahnarztpraxis bietet Ihnen ein umfassendes Spektrum an zahnmedizinischen Leistungen in einer freundlichen und einladenden Atmosphäre. Von der Vorsorge und Prophylaxe, sowohl für die Erwachsenen als auch für unsere kleinen Patienten, über ästhetische Zahnheilkunde wie Zahnaufhellungen und Veneers bis hin zu hochwertigen Füllungen und Zahnersatz. Unsere Mitarbeiter bilden sich immer weiter, damit sie Ihnen die besten Behandlungsmöglichkeiten anbieten können. Unsere Praxisphilosophie basiert auf persönlicher und ausführlicher Beratung, um für jeden Patienten die optimale Behandlung zu finden. Ihre Zahngesundheit und Ihr Wohlbefinden stehen für uns an erster Stelle. Mit modernster Technik und einem erfahrenen Team sorgen wir dafür, dass Sie sich bei uns gut aufgehoben fühlen.<br><br>Ihre<br>Zahnarztpraxis Tkacheva<br><br>",
+          "ru": "Что начинается с красивой улыбки? Успешная карьера, прекрасное совместное будущее или многолетняя дружба? В любой жизненной ситуации сияющая улыбка-ключик, открывающий любую дверь. Нам  очень важно поддержать успех наших пациентов на любом этапе их жизненного пути. Для этого мы стараемся быть лучше каждый день, совершенствовать свой профессионализм на многочисленных курсах. Мы мотивируем , поддерживаем и стремимся к лучшему во всех сферах всей командой, чтобы превзойти Ваши ожидания. У нас есть возможность при необходимости получить консультацию ведущих профессоров Университета Фрайбурга, Ульма, Мюнхена и Берлина. Это даёт нам возможность всегда быть в курсе новейших событий и исследований в мире стоматологии и применять их в повседневной практике.	Нам очень приятно быть причастными к созданию Вашей визитной карточки-сияющей,  белоснежной улыбки, и разделить с Вами Ваш успех.<br><br>К Вашим услугам, стоматологическая клиника Татьяны Ткачевой<br><br>"
+        }
       }
     ],
     "columns": [
@@ -20,11 +26,17 @@ const dateJson = [{
         "elements": [
           {
             "type": "h4",
-            "text": "Unsere Praxiszeiten"
+            "text": {
+              "de": "Unsere Praxiszeiten",
+              "ru": "Часы работы"
+            }
           },
           {
             "type": "p",
-            "text": "Mo,Di: 08:00-18:00; Mi: 12:00-17:30;<br>Do, Fr: 08:00-13:00<br><br>"
+            "text": {
+              "de": "Mo,Di: 08:00-18:00; Mi: 12:00-17:30;<br>Do, Fr: 08:00-13:00<br><br>",
+              "ru": "Пн,Вт: 08:00-18:00; Ср: 12:00-17:30;<br>Чт, Пт: 08:00-13:00<br><br>"
+            }
           }
         ]
       },
@@ -32,11 +44,17 @@ const dateJson = [{
         "elements": [
           {
             "type": "h4",
-            "text": "So finden Sie uns"
+            "text": {
+              "de": "So finden Sie uns",
+              "ru": "Контакт"
+            }
           },
           {
             "type": "p",
-            "text": "Zahnarztpraxis Tkacheva<br>Hauptstraße 13A,<br>79104 Freiburg im Breisgau<br><br>"
+            "text": {
+              "de": "Zahnarztpraxis Tkacheva<br>Hauptstraße 13A,<br>79104 Freiburg im Breisgau<br><br>",
+              "ru": "Стоматологическая клиника Ткачева<br>Главная улица 13А,<br>79104 Фрайбург-им-Брайсгау<br><br>"
+            }
           }
         ]
       },
@@ -44,7 +62,10 @@ const dateJson = [{
         "elements": [
           {
             "type": "h4",
-            "text": "Rufen Sie uns an"
+            "text": {
+              "de": "Rufen Sie uns an",
+              "ru": "Свяжитесь с нами"
+            }
           },
           {
             "type": "a",
@@ -60,7 +81,10 @@ const dateJson = [{
     "id": "gallery",
     "content": {
       "type": "gallery-h2",
-      "text": "Unsere Praxis"
+      "text": {
+        "de": "Unsere Praxis",
+        "ru": "Наша практика"
+      }
     },
     "gallery": [
       {
@@ -84,33 +108,66 @@ const dateJson = [{
     "id": "team",
     "content": {
       "type": "team-h2",
-      "text": "Unser Team"
+      "text": {
+        "de": "Unser Team",
+        "ru": "Наша команда"
+      }
     },
     "teams": [
       {
         "src": "assets/images/tkacheva/team/v3/TatianaTkacheva.png", 
-        "title": "Tatiana Tkacheva",
-        "designation": "Zahnärztin & Praxisinhaberin" 
+        "title": {
+          "de": "Tatiana Tkacheva",
+          "ru": "Татьяна Ткачева"
+        },
+        "designation": {
+          "de": "Zahnärztin & Praxisinhaberin",
+          "ru": "Стоматолог, Владелица Клинки"
+        }  
       },
       {
         "src": "assets/images/tkacheva/team/v3/man.png",
-        "title": "Manfred Sauer",
-        "designation": "Zahnarzt",
+        "title": {
+          "de": "Manfred Sauer",
+          "ru": "Манфред Зауэр"
+        },        
+        "designation": {
+          "de": "Zahnarzt",
+          "ru": "Стоматолог"
+        }
       },
       {
         "src": "assets/images/tkacheva/team/v3/t1v3.png",
-        "title": "Ramona Lais",
-        "designation": "Verwaltung, Prophylaxe, Stuhlassistenz"
+        "title": {
+          "de": "Ramona Lais",
+          "ru": "Рамона Лаис"
+        },
+        "designation": {
+          "de": "Verwaltung, Prophylaxe, Stuhlassistenz",
+          "ru": "Verwaltung, Prophylaxe, Stuhlassistenz"
+        }
       },
       {
         "src": "assets/images/tkacheva/team/v3/t1v3.png",
-        "title": "Hamda Abdirahman",
-        "designation": "Auszubildende"
+        "title": {
+          "de": "Hamda Abdirahman",
+          "ru": "Hamda Abdirahman"
+        },
+        "designation": {
+          "de": "Auszubildende",
+          "ru": "Auszubildende"
+        }
       },
       {
         "src": "assets/images/tkacheva/team/v3/t1v3.png",
-        "title": "Christina Schmieder",
-        "designation": "Auszubildende"
+        "title": {
+          "de": "Christina Schmieder",
+          "ru": "Кристина Шмидер"
+        },
+        "designation": {
+          "de": "Auszubildende",
+          "ru": "Auszubildende"
+        }
       }
     ]
   },
@@ -119,7 +176,10 @@ const dateJson = [{
     "content": [
       {
         "type": "leistung-h2",
-        "text": "Unsere eistungen"
+        "text": {
+          "de": "Unsere leistungen",
+          "ru": "Наши услуги"
+        }
       },
       {
         "type": "leistung-img",
@@ -129,20 +189,44 @@ const dateJson = [{
     ],
     "accordion": [
       {
-        "question": "Ästhetik",
-        "answer": "Gesunde Zähne haben nicht nur Einfluss auf Ihre gesamte Gesundheit, sondern auch auf Ihr Wohlbefinden. Sie sind Teil Ihrer Wirkung auf die Umwelt und somit ein wesentlicher Aspekt Ihrer eigenen Lebensfreude.<br><br>Viele Menschen leiden unter einer vermeintlich disharmonischen Erscheinung Ihrer Zähne. Daher setzten wir auf individuelle Beratung und ein auf Sie abgestimmtes Behandlungskonzept, damit Ihr Lächeln ungezwungen und entspannt bleibt.<br><br>Gerne beraten wir Sie diesbezüglich bei einem persönlichen Termin."
+        "question": {
+          "de": "Ästhetik",
+          "ru": "Эстетическая стоматология"
+        },
+        "answer": {
+          "de": "Gesunde Zähne haben nicht nur Einfluss auf Ihre gesamte Gesundheit, sondern auch auf Ihr Wohlbefinden. Sie sind Teil Ihrer Wirkung auf die Umwelt und somit ein wesentlicher Aspekt Ihrer eigenen Lebensfreude.<br><br>Viele Menschen leiden unter einer vermeintlich disharmonischen Erscheinung Ihrer Zähne. Daher setzten wir auf individuelle Beratung und ein auf Sie abgestimmtes Behandlungskonzept, damit Ihr Lächeln ungezwungen und entspannt bleibt.<br><br>Gerne beraten wir Sie diesbezüglich bei einem persönlichen Termin.",
+          "ru": "Здоровье зубов влияет не только на состояние всего организма, но также и на самоощущение. Это одна из частей Вашего взаимодействия с окружающим миром и как следствие, определяет качество Вашей жизни и степени удовлетворённости ей. Многие страдают от невозможности выразить чувство искренней радости или сделать красивое фото, считая свою улыбку недостаточно привлекательной.Поэтому на первичной консультации мы пытаемся определить, что важно именно Вам, какой бы Вы хотели видеть свою улыбку и что необходимо для этого предпринять. Вам остаётся только назначить время приёма!"
+        }
       },
       {
-        "question": "Diagnostik",
-        "answer": "Der Grundstein des Erfolges einer jeden Behandlung ist die Diagnose.<br><br>Um die bestmögliche Diagnostik bieten zu können, bieten wir moderne Verfahren wie beispielsweise DVT (Dreidimensionale Computertomographie) an. Mit Hilfe dieser Technik können wir alle Änderungen im Mund- & Kieferbereich befunden und eine zielgerichtete Behandlung anbieten."
+        "question": {
+          "de": "Diagnostik",
+          "ru": "Диагностика"
+        },
+        "answer": {
+          "de": "Der Grundstein des Erfolges einer jeden Behandlung ist die Diagnose.<br><br>Um die bestmögliche Diagnostik bieten zu können, bieten wir moderne Verfahren wie beispielsweise DVT (Dreidimensionale Computertomographie) an. Mit Hilfe dieser Technik können wir alle Änderungen im Mund- & Kieferbereich befunden und eine zielgerichtete Behandlung anbieten.",
+          "ru": "Залогом успеха в лечении любого заболевания является правильная диагностика. Для того, чтобы своевременно установить верный диагноз, мы используем в практике современные приборы. Таковым является, к примеру, трёхмерный компьютерный томограф, позволяющий оценить зубы и окружающую их костную ткань со всех сторон. Это позволяет нам выбрать конкретную  тактику лечения или возможность имплантации. Применяя это исследование, мы имеем возможность изначально более детально оценить состояние зубочелюстной системы."
+        }
       },
       {
-        "question": "CMD Diagnostik",
-        "answer": "CMD (craniomandibuläre Dysfunktion) steht für die Fehlfunktion des Kiefergelenks, die durch eine fehlerhafte Bisslage der Zähne verursacht wird. Das CMD Syndrom ist eine weit verbreitete Kiefergelenkerkrankung, bei welcher die Auswirkungen enorm sein können. In den meisten Fällen wissen Patienten nicht, dass eine craniomandibuläre Dysfunktion Ihre Beschwerden verursacht, da beispielsweise Rückenschmerzen nicht direkt auf eine Kieferfehlstellung hindeuten.<br><br>Wie bieten die CMD Diagnostik als Fundament jeder prothetischen Versorgung. Fragen Sie uns!"
+        "question": {
+          "de": "CMD Diagnostik",
+          "ru": "Диагностика заболеваний височно-нижнечелюстного сустава"
+        },
+        "answer": {
+          "de": "CMD (craniomandibuläre Dysfunktion) steht für die Fehlfunktion des Kiefergelenks, die durch eine fehlerhafte Bisslage der Zähne verursacht wird. Das CMD Syndrom ist eine weit verbreitete Kiefergelenkerkrankung, bei welcher die Auswirkungen enorm sein können. In den meisten Fällen wissen Patienten nicht, dass eine craniomandibuläre Dysfunktion Ihre Beschwerden verursacht, da beispielsweise Rückenschmerzen nicht direkt auf eine Kieferfehlstellung hindeuten.<br><br>Wie bieten die CMD Diagnostik als Fundament jeder prothetischen Versorgung. Fragen Sie uns!",
+          "ru": "Под заболеваниями височно-нижнечелюстного сустава понимают нарушения их функций , связанные с патологией суставных тканей, костных элементов или окружающих мышц .  Лечение данного вида патологий проводится совместно с мануальным терапевтом или остеопатом, так как зачастую прослеживается чёткая взаимосвязь с заболеваниями всего опорно- двигательного аппарата. Мы рекомендуем проведение диагностических мероприятий перед началом любого вида восстановительного лечения, особенно это касается протезирования."
+        }
       },
       {
-        "question": "Prophylaxe",
-        "answer": "'Wer täglich seine Zähne putzt, ist nicht vor Zahnfleischentzündungen und Karies gefeit'.<br><br>Die Wichtigkeit der professionellen Zahnreinigung ist höher denn je. Unser Prophylaxe-Team unterstützt Sie in den Fragen Zahnreinigung, Mundhygiene und Zahnaufhellung/Bleaching. Sprechen Sie uns an."
+        "question": {
+          "de": "Prophylaxe",
+          "ru": "Профилактические процедуры"
+        },
+        "answer": {
+          "de": "'Wer täglich seine Zähne putzt, ist nicht vor Zahnfleischentzündungen und Karies gefeit'.<br><br>Die Wichtigkeit der professionellen Zahnreinigung ist höher denn je. Unser Prophylaxe-Team unterstützt Sie in den Fragen Zahnreinigung, Mundhygiene und Zahnaufhellung/Bleaching. Sprechen Sie uns an.",
+          "ru": "Тот, кто регулярно чистит зубы, никогда не узнает, что такое кариес или заболевания десен. При этом важна не только регулярность , но и правильность выбранной методики. Выбор необходимых средств, методы чистки и контроль их выполнения осуществляют наши ассистенты-гигиенисты. Профессиональная гигиена неотъемлимая часть ухода за зубами. Мы рекомендуем повторять эту процедуру два раза в год. Если же Вы хотите безопасно и на длительный период осветлить Ваши зубы, то Вам необходима полноценная врачебная консультация с подбором необходимых средств и процедур."
+        }
       }
     ]
   },
@@ -157,15 +241,24 @@ const dateJson = [{
     "id": "adresse",
     "columns": [
       {
-        "title": "Adresse", 
+        "title": {
+          "de": "Adresse",
+          "ru": "Контакт" 
+        },
         "designation": "Zahnarztpraxis Tkacheva<br>Hauptstraße 13A,<br>79104 Freiburg im Breisgau<br><br></br>"
       },
       {
-        "title": "Kontakt", 
+        "title": {
+          "de": "Kontakt",
+          "ru": "Свяжитесь с нами"
+        },
         "designation": "Telefon: <a href='tel:+4976136331' style='color:white'>0761 - 36-331</a><br>Fax: 0761 - 36-331<br>E-Mail: <a href='mailto:fr.tkacheva@gmx.de' style='color:white'>fr.tkacheva@gmx.de</a><br></br>"
       },
       {
-        "title": "Praxiszeiten", 
+        "title": {
+          "de": "Praxiszeiten",
+          "ru": "Часы работы"
+        },
         "designation": "Mo,Di: 08:00-18:00; Mi: 12:00-17:30;<br>Do, Fr: 08:00-13:00<br><br></br>"
       },
     ]
