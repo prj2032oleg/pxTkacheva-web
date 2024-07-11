@@ -17,7 +17,7 @@ const Freiburg = [{
         "type": "about-p",
         "text": {
           "de": "Herzlich willkommen in der Zahnarztpraxis Tatiana Tkacheva in Freiburg Herdern! Unsere Zahnarztpraxis bietet Ihnen ein umfassendes Spektrum an zahnmedizinischen Leistungen in einer freundlichen und einladenden Atmosphäre. Von der Vorsorge und Prophylaxe, sowohl für die Erwachsenen als auch für unsere kleinen Patienten, über ästhetische Zahnheilkunde wie Zahnaufhellungen und Veneers bis hin zu hochwertigen Füllungen und Zahnersatz. Unsere Mitarbeiter bilden sich immer weiter, damit sie Ihnen die besten Behandlungsmöglichkeiten anbieten können. Unsere Praxisphilosophie basiert auf persönlicher und ausführlicher Beratung, um für jeden Patienten die optimale Behandlung zu finden. Ihre Zahngesundheit und Ihr Wohlbefinden stehen für uns an erster Stelle. Mit modernster Technik und einem erfahrenen Team sorgen wir dafür, dass Sie sich bei uns gut aufgehoben fühlen.<br><br>Ihre<br>Zahnarztpraxis Tkacheva<br><br>",
-          "ru": "Что начинается с красивой улыбки? Успешная карьера, прекрасное совместное будущее или многолетняя дружба? В любой жизненной ситуации сияющая улыбка-ключик, открывающий любую дверь. Нам  очень важно поддержать успех наших пациентов на любом этапе их жизненного пути. Для этого мы стараемся быть лучше каждый день, совершенствовать свой профессионализм на многочисленных курсах. Мы мотивируем , поддерживаем и стремимся к лучшему во всех сферах всей командой, чтобы превзойти Ваши ожидания. У нас есть возможность при необходимости получить консультацию ведущих профессоров Университета Фрайбурга, Ульма, Мюнхена и Берлина. Это даёт нам возможность всегда быть в курсе новейших событий и исследований в мире стоматологии и применять их в повседневной практике.	Нам очень приятно быть причастными к созданию Вашей визитной карточки-сияющей,  белоснежной улыбки, и разделить с Вами Ваш успех.<br><br>К Вашим услугам, стоматологическая клиника Татьяны Ткачевой<br><br>"
+          "ru": "Добро пожаловать в стоматологическую клинику Татьяны Ткачевой во Фрайбурге Xердерн! <br> Наша стоматологическая клиника предлагает вам полный спектр стоматологических услуг в дружелюбной и гостеприимной атмосфере. От профилактического ухода и профилактики, как для взрослых, так и для наших маленьких пациентов, до эстетической стоматологии, такой как отбеливание зубов и виниры, а также высококачественные пломбы и зубные протезы. <br> Наш персонал постоянно проходит повышение квалификации, чтобы предложить вам лучшие варианты лечения. Философия нашей практики основана на индивидуальных и подробных консультациях, чтобы подобрать оптимальное лечение для каждого пациента. <br> Ваше стоматологическое здоровье и благополучие - наш главный приоритет. Благодаря современным технологиям и опытной команде мы гарантируем, что с нами вы будете чувствовать себя в надежных руках.<br><br>К Вашим услугам, стоматологическая клиника Татьяны Ткачевой<br><br>"
         }
       }
     ],
@@ -53,7 +53,7 @@ const Freiburg = [{
             "type": "p",
             "text": {
               "de": "Zahnarztpraxis Tkacheva<br>Hauptstraße 13A,<br>79104 Freiburg im Breisgau<br><br>",
-              "ru": "Стоматологическая клиника Ткачева<br>Главная улица 13А,<br>79104 Фрайбург-им-Брайсгау<br><br>"
+              "ru": "Zahnarztpraxis Tkacheva<br>Hauptstraße 13A,<br>79104 Freiburg im Breisgau<br><br>"
             }
           }
         ]
