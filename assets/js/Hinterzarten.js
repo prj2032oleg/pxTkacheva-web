@@ -87,9 +87,7 @@ const Hinterzarten = [{
       }
     },
     "gallery": [
-      {
-        "href": "assets/images/tkacheva/praxis/pxHinterzarten/01.JPG"
-      },
+
       {
         "href": "assets/images/tkacheva/praxis/pxHinterzarten/02.JPG"
       },
@@ -104,6 +102,9 @@ const Hinterzarten = [{
       },
       {
         "href": "assets/images/tkacheva/praxis/pxHinterzarten/06.JPG"
+      },
+      {
+        "href": "assets/images/tkacheva/praxis/pxHinterzarten/07.JPG"
       }
     ]
   },
