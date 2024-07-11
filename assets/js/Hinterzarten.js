@@ -213,7 +213,7 @@ const Hinterzarten = [{
       {
         "type": "leistung-h2",
         "text": {
-          "de": "Unsere leistungen",
+          "de": "Unsere Leistungen",
           "ru": "Наши услуги"
         }
       },
