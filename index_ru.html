@@ -86,9 +86,9 @@
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Праксис</a>
 						<div class="dropdown-menu" >
-							<span style="display: block;" class="dropdown-item" onclick="updateContent('denzlingen')">Zahnarztpraxis Denzlingen</span>
-							<span style="display: block;" class="dropdown-item" onclick="updateContent('hinterzarten-ru', 'ru')">Zahnarztpraxis Hinterzarten</span>
-							<span style="display: block;" class="dropdown-item" onclick="updateContent('freiburg-ru', 'ru')">Zahnarztpraxis Freiburg-Herdern</span>
+							<span style="display: block;" class="dropdown-item" onclick="handleContent('denzlingen')">Zahnarztpraxis Denzlingen</span>
+							<span style="display: block;" class="dropdown-item" onclick="handleContent('hinterzarten-ru')">Zahnarztpraxis Hinterzarten</span>
+							<span style="display: block;" class="dropdown-item" onclick="handleContent('freiburg-ru')">Zahnarztpraxis Freiburg-Herdern</span>
 						</div>
   	      </li>
 				   <li>
@@ -341,7 +341,7 @@
   	        <h2 id="leistung-h2">Наши услуги</h2>
   	        <hr>
 					<div class="col-md-4 col-sm-12 almost-white-bg same-height-colum">
-						<img src="assets/images/tkacheva/leistungen.jpg" class="img-responsive" alt="Leistungen">
+						<img id="leistung-img" src="assets/images/tkacheva/leistungen.jpg" class="img-responsive" alt="Leistungen">
 					</div>
 					<div class="col-md-8 col-sm-12">
 						<div class="panel-group" id="accordion">
@@ -420,7 +420,7 @@
 			</div>
 		</section>
 		<!-- ============ Kontakt ============ -->	
-		<section class="footer-widgets pad-extra">
+		<section id="adresse" class="footer-widgets pad-extra">
 			<div class="container">
 				<div class="row">
 				  <div class="col-md-4">

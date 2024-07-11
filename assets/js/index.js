@@ -233,7 +233,7 @@ function getUrlParameters() {
 
 window.addEventListener('load', () => {
   let hash = getUrlParameters();
-  console.log(hash)
+  
   switch (hash) {
     case '#freiburg':
       updateContent('freiburg', 'de');
@@ -253,12 +253,6 @@ window.addEventListener('load', () => {
 });
 
 function updateContent(type, locale) {
-  if (type === 'denzlingen') {
-    history.pushState("", document.title, window.location.pathname + window.location.search);
-    location.reload();
-    return
-  };
-
   const data = (type === 'hinterzarten' || type === 'hinterzarten-ru') ? Hinterzarten : Freiburg;
   if (!data) {
     console.error('Error: data not found');
@@ -275,6 +269,14 @@ function updateContent(type, locale) {
   } catch (error) {
     console.error('Error for refresh content:', error);
   }
+};
 
-  window.location.hash = type;
+function handleContent(type) {
+  if (type !== 'denzlingen') {
+    window.location.hash = type;
+    location.reload();
+  } else {
+    history.pushState("", document.title, window.location.pathname + window.location.search);
+    location.reload();
+  }
 };
