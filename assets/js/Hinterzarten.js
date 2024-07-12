@@ -74,6 +74,24 @@ const Hinterzarten = [{
             "class": ["get-started-btn", "btn", "btn-charity-default"]
           }
         ]
+      },
+      {
+        "elements": [
+          {
+            "type": "h4",
+            "text": {
+              "de": "Unsere zahnarztpraxis",
+              "ru": "Наши кабинеты"
+            }
+          },
+          {
+            "type": "p",
+            "text": {
+              "de": "<span class='item' onclick='handleContent(`denzlingen`)'>Denzlingen</span><br><span class='item' onclick='handleContent(`freiburg`)'>Freiburg-Herdern</span>",
+              "ru": "<span class='item' onclick='handleContent(`denzlingen`)'>Denzlingen</span><br><span class='item' onclick='handleContent(`freiburg-ru`)'>Freiburg-Herdern</span>"
+            }
+          }
+        ]
       }
     ]
   },
@@ -297,6 +315,16 @@ const Hinterzarten = [{
           "ru": "Часы работы"
         },
         "designation": "Mo, Di, Do,: 08:00-12:00; 14:00-18:00,<br>Mi, Fr: 08:00-12:00<br><br></br>"
+      },
+      {
+        "title": {
+          "de": "Unsere zahnarztpraxis",
+          "ru": "Наши кабинеты"
+        },
+        "designation": {
+          "de": "<span class='item' onclick='handleContent(`denzlingen`)'>Denzlingen</span><br><span class='item' onclick='handleContent(`freiburg`)'>Freiburg-Herdern</span>",
+          "ru": "<span class='item' onclick='handleContent(`denzlingen`)'>Denzlingen</span><br><span class='item' onclick='handleContent(`freiburg-ru`)'>Freiburg-Herdern</span>"
+        }
       },
     ]
   }

@@ -1,6 +1,6 @@
 function updateAboutContent(aboutData, locale) {
     const section = document.getElementById(aboutData.id);
-    const colElements = section.querySelectorAll('.col-md-4');
+    const colElements = section.querySelectorAll('.col-md-3');
     
     aboutData.content.forEach(item => {
       const element = document.getElementById(item.type);
@@ -201,7 +201,7 @@ function updateAdresseContent(adresseData, locale) {
 
   const createAdresseColumn = (item) => {
     const colDiv = document.createElement('div');
-    colDiv.className = 'col-md-4';
+    colDiv.className = 'col-md-3';
   
     const colCard = document.createElement('div');
     colCard.className = 'widgets-content';
@@ -211,8 +211,12 @@ function updateAdresseContent(adresseData, locale) {
     title.textContent = item.title[locale];
 
     const designation = document.createElement('p');
-    designation.innerHTML = item.designation;
-
+    if (typeof item.designation === 'object') {
+      designation.innerHTML = item.designation[locale];
+    } else if (typeof item.designation === 'string') {
+      designation.innerHTML = item.designation;
+    }
+    
     colCard.appendChild(title);
     colCard.appendChild(designation);
     

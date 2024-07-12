@@ -74,6 +74,24 @@ const Freiburg = [{
             "class": ["get-started-btn", "btn", "btn-charity-default"]
           }
         ]
+      },
+      {
+        "elements": [
+          {
+            "type": "h4",
+            "text": {
+              "de": "Unsere zahnarztpraxis",
+              "ru": "Наши кабинеты"
+            }
+          },
+          {
+            "type": "p",
+            "text": {
+              "de": "<span class='item' onclick='handleContent(`denzlingen`)'>Denzlingen</span><br><span class='item' onclick='handleContent(`hinterzarten`)'>Hinterzarten</span>",
+              "ru": "<span class='item' onclick='handleContent(`denzlingen`)'>Denzlingen</span><br><span class='item' onclick='handleContent(`hinterzarten-ru`)'>Hinterzarten</span>"
+            }
+          }
+        ]
       }
     ]
   },
@@ -88,13 +106,19 @@ const Freiburg = [{
     },
     "gallery": [
       {
-        "href": "assets/images/tkacheva/praxis/pxFreiburg/01.JPG"
+        "href": "assets/images/tkacheva/praxis/p1.jpg"
       },
       {
-        "href": "assets/images/tkacheva/praxis/pxFreiburg/02.JPG"
+        "href": "assets/images/tkacheva/praxis/p2.jpg"
       },
       {
-        "href": "assets/images/tkacheva/praxis/pxFreiburg/03.JPG"
+        "href": "assets/images/tkacheva/praxis/p3.jpg"
+      },
+      {
+        "href": "assets/images/tkacheva/praxis/p4.jpg"
+      },
+      {
+        "href": "assets/images/tkacheva/praxis/p5.jpg"
       }
     ]
   },
@@ -171,7 +195,7 @@ const Freiburg = [{
       {
         "type": "leistung-h2",
         "text": {
-          "de": "Unsere Leistungen",
+          "de": "Unsere leistungen",
           "ru": "Наши услуги"
         }
       },
@@ -254,6 +278,16 @@ const Freiburg = [{
           "ru": "Часы работы"
         },
         "designation": "Mo,Di: 08:00-18:00; Mi: 12:00-17:30;<br>Do, Fr: 08:00-13:00<br><br></br>"
+      },
+      {
+        "title": {
+          "de": "Unsere zahnarztpraxis",
+          "ru": "Наши кабинеты"
+        },
+        "designation": {
+          "de": "<span class='item' onclick='handleContent(`denzlingen`)'>Denzlingen</span><br><span class='item' onclick='handleContent(`hinterzarten`)'>Hinterzarten</span>",
+          "ru": "<span class='item' onclick='handleContent(`denzlingen`)'>Denzlingen</span><br><span class='item' onclick='handleContent(`hinterzarten-ru`)'>Hinterzarten</span>"
+        }
       },
     ]
   }
