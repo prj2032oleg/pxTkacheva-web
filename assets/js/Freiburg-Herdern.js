@@ -80,8 +80,8 @@ const Freiburg = [{
           {
             "type": "h4",
             "text": {
-              "de": "Unsere zahnarztpraxis",
-              "ru": "Наши кабинеты"
+              "de": "Unsere Zahnarztpraxen",
+              "ru": "Наши стоматологии"
             }
           },
           {
@@ -281,8 +281,8 @@ const Freiburg = [{
       },
       {
         "title": {
-          "de": "Unsere zahnarztpraxis",
-          "ru": "Наши кабинеты"
+          "de": "Unsere Zahnarztpraxen",
+          "ru": "Наши стоматологии"
         },
         "designation": {
           "de": "<span class='item' onclick='handleContent(`denzlingen`)'>Denzlingen</span><br><span class='item' onclick='handleContent(`hinterzarten`)'>Hinterzarten</span>",

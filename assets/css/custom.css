@@ -92,6 +92,7 @@
     cursor: pointer;
     transition: all 0.4s ease;
     font-weight: 600;
+    color: #f80c27;
 }
 
 .item:hover {
