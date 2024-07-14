@@ -106,19 +106,13 @@ const Freiburg = [{
     },
     "gallery": [
       {
-        "href": "assets/images/tkacheva/praxis/p1.jpg"
+        "href": "assets/images/tkacheva/praxis/pxFreiburg/01.JPG"
       },
       {
-        "href": "assets/images/tkacheva/praxis/p2.jpg"
+        "href": "assets/images/tkacheva/praxis/pxFreiburg/02.JPG"
       },
       {
-        "href": "assets/images/tkacheva/praxis/p3.jpg"
-      },
-      {
-        "href": "assets/images/tkacheva/praxis/p4.jpg"
-      },
-      {
-        "href": "assets/images/tkacheva/praxis/p5.jpg"
+        "href": "assets/images/tkacheva/praxis/pxFreiburg/03.JPG"
       }
     ]
   },
@@ -195,7 +189,7 @@ const Freiburg = [{
       {
         "type": "leistung-h2",
         "text": {
-          "de": "Unsere leistungen",
+          "de": "Unsere Leistungen",
           "ru": "Наши услуги"
         }
       },
