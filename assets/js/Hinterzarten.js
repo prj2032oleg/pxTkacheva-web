@@ -140,73 +140,73 @@ const Hinterzarten = [{
         "src": "assets/images/tkacheva/team/v3/TatianaTkacheva.png", 
         "title": {
           "de": "Tatiana Tkacheva",
-          "ru": "Татьяна Ткачева"
+          "ru": "Tatiana Tkacheva"
         },
         "designation": {
           "de": "Zahnärztin & Praxisinhaberin",
-          "ru": "Стоматолог, Владелица Клинки"
+          "ru": "Zahnärztin & Praxisinhaberin"
         } 
       },
       {
         "src": "assets/images/tkacheva/team/v3/man.png",
         "title": {
           "de": "Manfred Sauer",
-          "ru": "Манфред Зауэр"
+          "ru": "Manfred Sauer"
         },        
         "designation": {
           "de": "Zahnarzt",
-          "ru": "Стоматолог"
+          "ru": "Zahnarzt"
         }
       },
       {
         "src": "assets/images/tkacheva/team/v3/NinmarMalki.png",
         "title": {
           "de": "Ninmar Malki",
-          "ru": "Нинмар Малки"
+          "ru": "Ninmar Malki"
         },
         "designation": {
           "de": "Vorbereitungsassistent",
-          "ru": "Помощник по подготовке"
+          "ru": "Vorbereitungsassistent"
         }
       },
       {
         "src": "assets/images/tkacheva/team/v3/SandraSchillinger_1.png",
         "title": {
           "de": "Sandra Schillinger",
-          "ru": "Сандра Шиллингер"
+          "ru": "Sandra Schillinger"
         },
         "designation": {
           "de": "Praxismanagerin, Prophylaxe",
-          "ru": "Управляющая, гигиенист"
+          "ru": "Praxismanagerin, Prophylaxe"
         }
       },
       {
         "src": "assets/images/tkacheva/team/v3/RenateWeidinger.png",
         "title": {
           "de": "Renate Weidinger",
-          "ru": "Ренате Вайдингер"
+          "ru": "Renate Weidinger"
         },
         "designation": {
           "de": "Verwaltung",
-          "ru": "Администратор"
+          "ru": "Verwaltung"
         }
       },
       {
         "src": "assets/images/tkacheva/team/v3/t1v3.png",
         "title": {
           "de": "Maria Rombach",
-          "ru": "Мария Ромбах"
+          "ru": "Maria Rombach"
         },
         "designation": {
           "de": "Stuhlassistenz",
-          "ru": "Ассистент врача стоматолога"
+          "ru": "Stuhlassistenz"
         }
       },
       {
         "src": "assets/images/tkacheva/team/v3/t1v3.png",
         "title": {
           "de": "Maria Kreiler",
-          "ru": "Мария Крейлер"
+          "ru": "Maria Kreiler"
         },
         "designation": {
           "de": "Prophylaxe, Stuhlassistenz",
@@ -217,7 +217,7 @@ const Hinterzarten = [{
         "src": "assets/images/tkacheva/team/v3/t1v3.png",
         "title": {
           "de": "Sofia Somai",
-          "ru": "София Сомай"
+          "ru": "Sofia Somai"
         },
         "designation": {
           "de": "Auszubildende",

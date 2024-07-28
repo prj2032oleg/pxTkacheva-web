@@ -130,29 +130,29 @@ const Freiburg = [{
         "src": "assets/images/tkacheva/team/v3/TatianaTkacheva.png", 
         "title": {
           "de": "Tatiana Tkacheva",
-          "ru": "Татьяна Ткачева"
+          "ru": "Tatiana Tkacheva"
         },
         "designation": {
           "de": "Zahnärztin & Praxisinhaberin",
-          "ru": "Стоматолог, Владелица Клинки"
+          "ru": "Zahnärztin & Praxisinhaberin"
         }  
       },
       {
         "src": "assets/images/tkacheva/team/v3/man.png",
         "title": {
           "de": "Manfred Sauer",
-          "ru": "Манфред Зауэр"
+          "ru": "Manfred Sauer"
         },        
         "designation": {
           "de": "Zahnarzt",
-          "ru": "Стоматолог"
+          "ru": "Zahnarzt"
         }
       },
       {
-        "src": "assets/images/tkacheva/team/v3/t1v3.png",
+        "src": "assets/images/tkacheva/team/v3/LaisRamona.png",
         "title": {
           "de": "Ramona Lais",
-          "ru": "Рамона Лаис"
+          "ru": "Ramona Lais"
         },
         "designation": {
           "de": "Verwaltung, Prophylaxe, Stuhlassistenz",
@@ -171,7 +171,7 @@ const Freiburg = [{
         }
       },
       {
-        "src": "assets/images/tkacheva/team/v3/t1v3.png",
+        "src": "assets/images/tkacheva/team/v3/SchmiederChristina.png",
         "title": {
           "de": "Christina Schmieder",
           "ru": "Кристина Шмидер"
