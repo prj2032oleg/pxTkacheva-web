@@ -138,17 +138,6 @@ const Freiburg = [{
         }  
       },
       {
-        "src": "assets/images/tkacheva/team/v3/man.png",
-        "title": {
-          "de": "Manfred Sauer",
-          "ru": "Manfred Sauer"
-        },
-        "designation": {
-          "de": "Zahnarzt",
-          "ru": "Zahnarzt"
-        }
-      },
-      {
         "src": "assets/images/tkacheva/team/v3/WolpertVladi.png",
         "title": {
           "de": "Vladislav Wolpert",
