@@ -216,7 +216,7 @@ const Freiburg = [{
           "ru": "Диагностика"
         },
         "answer": {
-          "de": "Der Grundstein des Erfolges einer jeden Behandlung ist die Diagnose.<br><br>Um die bestmögliche Diagnostik bieten zu können, bieten wir moderne Verfahren wie beispielsweise DVT (Dreidimensionale Computertomographie) an. Mit Hilfe dieser Technik können wir alle Änderungen im Mund- & Kieferbereich befunden und eine zielgerichtete Behandlung anbieten.",
+          "de": "Der Grundstein des Erfolges einer jeden Behandlung ist die Diagnose.<br><br>Um die bestmögliche Diagnostik bieten zu können, bieten wir moderne Verfahren wie beispielsweise DVT (Dreidimensionale Computertomografie) an. Mithilfe dieser Technik können wir alle Änderungen im Mund- & Kieferbereich befunden und eine zielgerichtete Behandlung anbieten.",
           "ru": "Залогом успеха в лечении любого заболевания является правильная диагностика. Для того, чтобы своевременно установить верный диагноз, мы используем в практике современные приборы. Таковым является, к примеру, трёхмерный компьютерный томограф, позволяющий оценить зубы и окружающую их костную ткань со всех сторон. Это позволяет нам выбрать конкретную  тактику лечения или возможность имплантации. Применяя это исследование, мы имеем возможность изначально более детально оценить состояние зубочелюстной системы."
         }
       },
@@ -226,7 +226,7 @@ const Freiburg = [{
           "ru": "Диагностика заболеваний височно-нижнечелюстного сустава"
         },
         "answer": {
-          "de": "CMD (craniomandibuläre Dysfunktion) steht für die Fehlfunktion des Kiefergelenks, die durch eine fehlerhafte Bisslage der Zähne verursacht wird. Das CMD Syndrom ist eine weit verbreitete Kiefergelenkerkrankung, bei welcher die Auswirkungen enorm sein können. In den meisten Fällen wissen Patienten nicht, dass eine craniomandibuläre Dysfunktion Ihre Beschwerden verursacht, da beispielsweise Rückenschmerzen nicht direkt auf eine Kieferfehlstellung hindeuten.<br><br>Wie bieten die CMD Diagnostik als Fundament jeder prothetischen Versorgung. Fragen Sie uns!",
+          "de": "CMD (craniomandibuläre Dysfunktion) steht für die Fehlfunktion des Kiefergelenks, die durch eine fehlerhafte Bisslage der Zähne verursacht wird. Das CMD Syndrom ist eine weit verbreitete Kiefergelenkerkrankung, bei welcher die Auswirkungen enorm sein können. In den meisten Fällen wissen Patienten nicht, dass eine craniomandibuläre Dysfunktion Ihre Beschwerden verursacht, da beispielsweise Rückenschmerzen nicht direkt auf eine Kieferfehlstellung hindeuten.<br><br>Wir bieten die CMD Diagnostik als Fundament jeder prothetischen Versorgung. Fragen Sie uns!",
           "ru": "Под заболеваниями височно-нижнечелюстного сустава понимают нарушения их функций , связанные с патологией суставных тканей, костных элементов или окружающих мышц .  Лечение данного вида патологий проводится совместно с мануальным терапевтом или остеопатом, так как зачастую прослеживается чёткая взаимосвязь с заболеваниями всего опорно- двигательного аппарата. Мы рекомендуем проведение диагностических мероприятий перед началом любого вида восстановительного лечения, особенно это касается протезирования."
         }
       },
