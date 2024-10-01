@@ -257,21 +257,21 @@ const Freiburg = [{
           "de": "Adresse",
           "ru": "Контакт" 
         },
-        "designation": "Zahnarztpraxis Tkacheva<br>Hauptstraße 13A,<br>79104 Freiburg im Breisgau<br><br></br>"
+        "designation": "Zahnarztpraxis Tkacheva<br>Hauptstraße 13A,<br>79104 Freiburg im Breisgau<br><br>"
       },
       {
         "title": {
           "de": "Kontakt",
           "ru": "Свяжитесь с нами"
         },
-        "designation": "Telefon: <a href='tel:+4976136331' style='color:white'>0761 - 36-331</a><br>Fax: 0761 - 36-331<br>E-Mail: <a href='mailto:fr.tkacheva@gmx.de' style='color:white'>fr.tkacheva@gmx.de</a><br></br>"
+        "designation": "Telefon: <a href='tel:+4976136331' style='color:white'>0761 - 36-331</a><br>Fax: 0761 - 36-331<br>E-Mail: <a href='mailto:fr@px-tkacheva.de' style='color:white'>fr@px-tkacheva.de</a><br>"
       },
       {
         "title": {
           "de": "Praxiszeiten",
           "ru": "Часы работы"
         },
-        "designation": "Mo,Di: 08:00-18:00; Mi: 12:00-17:30;<br>Do, Fr: 08:00-13:00<br><br></br>"
+        "designation": "Mo,Di: 08:00-18:00; Mi: 12:00-17:30;<br>Do, Fr: 08:00-13:00<br><br>"
       },
       {
         "title": {
