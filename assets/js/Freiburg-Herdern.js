@@ -140,8 +140,8 @@ const Freiburg = [{
       {
         "src": "assets/images/tkacheva/team/v3/man.png",
         "title": {
-          "de": "Dr. med. dent. Tobias Eisenmenger",
-          "ru": "Dr. med. dent. Tobias Eisenmenger"
+          "de": "Dr. Tobias Eisenmenger",
+          "ru": "Dr. Tobias Eisenmenger"
         },        
         "designation": {
           "de": "Zahnarzt",
