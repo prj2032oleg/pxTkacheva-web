@@ -138,14 +138,14 @@ const Freiburg = [{
         }  
       },
       {
-        "src": "assets/images/tkacheva/team/v3/WolpertVladi.png",
+        "src": "assets/images/tkacheva/team/v3/man.png",
         "title": {
-          "de": "Vladislav Wolpert",
-          "ru": "Vladislav Wolpert"
+          "de": "Dr. med. dent. Tobias Eisenmenger",
+          "ru": "Dr. med. dent. Tobias Eisenmenger"
         },        
         "designation": {
-          "de": "Vorbereitungsassistent",
-          "ru": "Vorbereitungsassistent"
+          "de": "Zahnarzt",
+          "ru": "Zahnarzt"
         }
       },
       {
@@ -174,7 +174,7 @@ const Freiburg = [{
         "src": "assets/images/tkacheva/team/v3/SchmiederChristina.png",
         "title": {
           "de": "Christina Schmieder",
-          "ru": "Кристина Шмидер"
+          "ru": "Christina Schmieder"
         },
         "designation": {
           "de": "Auszubildende",
