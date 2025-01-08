@@ -1,0 +1,17 @@
+{
+  "personal-name": "Tatiana",
+  "personal-lastname": "Tkacheva",
+  "personal-foto-link": "/teams/personal/foto/TatianaTkacheva.png",
+  "personal-vita-link": "/teams/personal/vita/vita_tkacheva.pdf",
+  "personal-position": [
+    {"clinic-alias": "praxis-denzlingen", "position":"Zahnärztin", "top":1, "person-gallery-order": 1},
+    {"clinic-alias": "praxis-denzlingen", "position":"Praxisinhaberin", "top":1,"person-gallery-order": 1},
+    {"clinic-alias": "praxis-hinterzarten", "position":"Zahnärztin", "top":  1,"person-gallery-order": 2},
+    {"clinic-alias": "praxis-freiburg", "position":"Zahnärztin", "top":  1,"person-gallery-order": 3}
+  ],
+  "personal-clinic": [
+    {"alias":"praxis-denzlingen"},
+    {"alias":"praxis-hinterzarten"},
+    {"alias":"praxis-freiburg"}
+  ]
+}

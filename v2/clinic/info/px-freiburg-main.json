@@ -1,0 +1,24 @@
+{
+  "clinic-route": "#freiburg",
+  "clinic-alias": "praxis-freiburg",
+  "clinic-contact-info-link": "/clinic/contact-info/px-freiburg.json",
+  "clinic-services-link": "/clinic/px-services/px-freiburg-services.json",
+  "clinic-opening-hours": {
+    "ru": ["Пн,Вт: 08:00-18:00", "Ср: 12:00-17:30", "Чт,Пт: 08:00-13:00"],
+    "de": ["Mo,Di: 08:00-18:00", "Mi: 12:00-17:30", "Do, Fr: 08:00-13:00"]
+  },
+  "clinic-about-us" : {
+    "de": [
+      {"line": 1, "value": "Herzlich willkommen in der Zahnarztpraxis Tatiana Tkacheva in Freiburg Herdern! Unsere Zahnarztpraxis bietet Ihnen ein umfassendes Spektrum an zahnmedizinischen Leistungen in einer freundlichen und einladenden Atmosphäre. Von der Vorsorge und Prophylaxe, sowohl für die Erwachsenen als auch für unsere kleinen Patienten, über ästhetische Zahnheilkunde wie Zahnaufhellungen und Veneers bis hin zu hochwertigen Füllungen und Zahnersatz. Unsere Mitarbeiter bilden sich immer weiter, damit sie Ihnen die besten Behandlungsmöglichkeiten anbieten können. Unsere Praxisphilosophie basiert auf persönlicher und ausführlicher Beratung, um für jeden Patienten die optimale Behandlung zu finden. Ihre Zahngesundheit und Ihr Wohlbefinden stehen für uns an erster Stelle. Mit modernster Technik und einem erfahrenen Team sorgen wir dafür, dass Sie sich bei uns gut aufgehoben fühlen."},
+      {"line": 2, "value": "Ihre"},
+      {"line": 3, "value": "Zahnarztpraxis Tkacheva"}
+    ],
+    "ru": [
+      {"line": 1, "value": "Добро пожаловать в стоматологическую клинику Татьяны Ткачевой во Фрайбурге Xердерн!"},
+      {"line": 2, "value": "Наша стоматологическая клиника предлагает вам полный спектр стоматологических услуг в дружелюбной и гостеприимной атмосфере. От профилактического ухода и профилактики, как для взрослых, так и для наших маленьких пациентов, до эстетической стоматологии, такой как отбеливание зубов и виниры, а также высококачественные пломбы и зубные протезы."},
+      {"line": 3, "value": "Наш персонал постоянно проходит повышение квалификации, чтобы предложить вам лучшие варианты лечения. Философия нашей практики основана на индивидуальных и подробных консультациях, чтобы подобрать оптимальное лечение для каждого пациента."},
+      {"line": 4, "value": "Ваше стоматологическое здоровье и благополучие - наш главный приоритет. Благодаря современным технологиям и опытной команде мы гарантируем, что с нами вы будете чувствовать себя в надежных руках."},
+      {"line": 5, "value": "К Вашим услугам, стоматологическая клиника Татьяны Ткачевой"}
+    ]
+  }
+}

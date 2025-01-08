@@ -1,0 +1,17 @@
+{
+  "clinic-name": "Zahnarztpraxis Tkacheva",
+  "clinic-address": [
+    {
+      "country": "Deutschland",
+      "postal-code": "79211",
+      "location": "Denzlingen",
+      "street": "Hauptstraße",
+      "building": "92",
+      "google-link": "https://maps.app.goo.gl/a5qCz4D1bMkRANed6"
+    }
+  ],
+  "clinic-emails": ["info@px-tkacheva.de","termine@px-tkacheva.de"],
+  "clinic-faxes": ["0(7666)912030"],
+  "clinic-telefon": ["0(7666)912020", "0(7666)912040"]
+}
+

@@ -1,0 +1,16 @@
+{
+  "clinic-name": "Zahnarztpraxis Tkacheva",
+  "clinic-address": [
+    {
+      "country": "Deutschland",
+      "postal-code": "79856",
+      "location": "Hinterzarten",
+      "street": "Freiburger Straße",
+      "building": "3",
+      "google-link": "https://maps.app.goo.gl/DoWLshwxWFb2XbX56"
+    }
+  ],
+  "clinic-emails": ["za.hinterzarten@gmx.de"],
+  "clinic-faxes": ["0(765)21331"],
+  "clinic-telefon": ["0(765)21331"]
+}
