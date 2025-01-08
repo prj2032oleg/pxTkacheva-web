@@ -1,0 +1,16 @@
+{
+  "clinic-name": "Zahnarztpraxis Tkacheva",
+  "clinic-address": [
+    {
+      "country": "Deutschland",
+      "postal-code": "79104",
+      "location": "Freiburg im Breisgau",
+      "street": "Hauptstraße",
+      "building": "13A",
+      "google-link": "https://maps.app.goo.gl/DoWLshwxWFb2XbX56"
+    }
+  ],
+  "clinic-emails": ["fr@px-tkacheva.de"],
+  "clinic-faxes": ["0(761)36331"],
+  "clinic-telefon": ["0(761)36331"]
+}

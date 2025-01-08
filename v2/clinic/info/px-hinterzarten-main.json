@@ -1,0 +1,25 @@
+{
+  "clinic-route": "#hinterzarten",
+  "clinic-alias": "praxis-hinterzarten",
+  "clinic-contact-info-link": "/clinic/contact-info/px-hinterzarten.json",
+  "clinic-services-link": "/clinic/px-services/px-hinterzarten-services.json",
+  "clinic-opening-hours": {
+    "ru": ["Пн, Вт, Чт: 08:00-12:00, 14:00-18:00", "Ср, Пт: 08:00-12:00"],
+    "de": ["Mo, Di, Do,: 08:00-12:00, 14:00-18:00", "Mi, Fr: 08:00-12:00"]
+  },
+  "clinic-about-us" : {
+    "de": [
+      {"line": 1, "value": "Herzlich willkommen in der Zahnarztpraxis Tatiana Tkacheva in Hinterzarten!"},
+      {"line": 2, "value": "Unsere Zahnarztpraxis bietet Ihnen eine umfassende zahnmedizinische Betreuung in einer angenehmen und freundlichen Atmosphäre. Wir legen großen Wert auf individuelle Beratung und maßgeschneiderte Behandlungskonzepte, um Ihre Zahngesundheit optimal zu unterstützen. Unser Leistungsspektrum umfasst eine Vielzahl von Behandlungen. Von der Prophylaxe, sowohl für die Erwachsenen als auch für unsere kleinen Patienten, und regelmäßigen Kontrolluntersuchungen über ästhetische Zahnheilkunde wie Zahnaufhellungen und Veneers bis hin zu hochwertigen Füllungen und Zahnersatz auf Implantate. Außerdem beraten und behandeln wir Sie gerne im Bereich der Implantologie. Um Ihnen all das bieten zu können besuchen unsere Spezialisten regelmäßig Fortbildungen und Schulungen um ihr Wissen zu erweitern und Sie bestmöglich behandeln zu können. Das Wohlbefinden unserer Patienten steht bei uns an erster Stelle. Unser erfahrenes Team sorgt dafür, dass Sie sich bei jedem Besuch gut aufgehoben fühlen. Ob es um die Erhaltung Ihrer Zahngesundheit oder um ästhetische Verbesserungen geht, wir nehmen uns die Zeit, um auf Ihre individuellen Bedürfnisse einzugehen und die beste Lösung für Sie zu finden."},
+      {"line": 3, "value": "Ihre"},
+      {"line": 4, "value": "Zahnarztpraxis Tkacheva"}
+    ],
+    "ru": [
+      {"line": 1, "value": "Добро пожаловать в стоматологическую клинику Татьяны Ткачевой в Хинтерцартене!"},
+      {"line": 2, "value": "Наша стоматологическая клиника предлагает вам полный спектр стоматологических услуг в дружелюбной и гостеприимной атмосфере. От профилактического ухода и профилактики, как для взрослых, так и для наших маленьких пациентов, до эстетической стоматологии, такой как отбеливание зубов и виниры, а также высококачественные пломбы и зубные протезы."},
+      {"line": 3, "value": "Наш персонал постоянно проходит повышение квалификации, чтобы предложить вам лучшие варианты лечения. Философия нашей практики основана на индивидуальных и подробных консультациях, чтобы подобрать оптимальное лечение для каждого пациента."},
+      {"line": 4, "value": "Ваше стоматологическое здоровье и благополучие - наш главный приоритет. Благодаря современным технологиям и опытной команде мы гарантируем, что с нами вы будете чувствовать себя в надежных руках."},
+      {"line": 5, "value": "К Вашим услугам, стоматологическая клиника Татьяны Ткачевой"}
+    ]
+  }
+}

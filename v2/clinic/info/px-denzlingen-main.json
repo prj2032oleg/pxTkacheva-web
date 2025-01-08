@@ -1,0 +1,22 @@
+{
+  "clinic-route": "",
+  "clinic-alias": "praxis-denzlingen",
+  "clinic-contact-info-link": "/clinic/contact-info/px-denzlingen.json",
+  "clinic-services-link": "/clinic/px-services/px-denzlingen-services.json",
+  "clinic-opening-hours": {
+    "ru": ["Mo. - Do.: 08:00 - 18:00 Uhr", "Fr.: 08:00 - 12:00 Uhr"],
+    "de": ["Mo. - Do.: 08:00 - 18:00 Uhr", "Fr.: 08:00 - 12:00 Uhr"]
+  },
+  "clinic-about-us" : {
+    "de": [
+      {"line": 1, "value": "Was fängt mit einem schönen Lächeln an? Eine erfolgreiche Arbeitsbeziehung, eine gemeinsame Zukunft oder langjährige Freundschaft? In allen Lebenssituationen ist Ihr strahlendes Lächeln wie ein Schlüssel zu allen Türen. Für uns ist es ganz wichtig, unsere Patienten in jedem Schritt des Lebens professionell zu unterstützen. Deswegen verbessern wir unsere Fähigkeiten ständig durch verschiedene Fortbildungen. Wir motivieren, fördern und fordern unser Team in allen Bereichen. So halten wir Kontakt zu führenden deutschen Wissenschaftlern an den Universitäten Freiburg, Ulm, München und Berlin – damit sind wir der Grundlagenforschung sehr nahe und immer auf dem aktuellen Stand."},
+      {"line": 2, "value": "Wir würden uns sehr freuen, in jeder Lebenssituation mithilfe eines schönen Lächelns Ihren Erfolg zu begleiten."},
+      {"line": 3, "value": "Ihre"},
+      {"line": 4, "value": "Zahnarztpraxis Tkacheva"}
+    ],
+    "ru": [
+      {"line": 1, "value": "Что начинается с красивой улыбки? Успешная карьера, прекрасное совместное будущее или многолетняя дружба? В любой жизненной ситуации сияющая улыбка-ключик, открывающий любую дверь. Нам очень важно поддержать успех наших пациентов на любом этапе их жизненного пути. Для этого мы стараемся быть лучше каждый день, совершенствовать свой профессионализм на многочисленных курсах. Мы мотивируем , поддерживаем и стремимся к лучшему во всех сферах всей командой, чтобы превзойти Ваши ожидания. У нас есть возможность при необходимости получить консультацию ведущих профессоров Университета Фрайбурга, Ульма, Мюнхена и Берлина. Это даёт нам возможность всегда быть в курсе новейших событий и исследований в мире стоматологии и применять их в повседневной практике. Нам очень приятно быть причастными к созданию Вашей визитной карточки-сияющей, белоснежной улыбки, и разделить с Вами Ваш успех."},
+      {"line": 2, "value": "К Вашим услугам, стоматологическая клиника Татьяны Ткачевой"}
+    ]
+  }
+}
