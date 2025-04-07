@@ -69,7 +69,7 @@ const Hinterzarten = [{
           },
           {
             "type": "a",
-            "text": "Tel: 07652 1331",
+            "text": "Tel: 07652 / 1331",
             "href": "#",
             "class": ["get-started-btn", "btn", "btn-charity-default"]
           }
@@ -296,7 +296,7 @@ const Hinterzarten = [{
           "de": "Kontakt",
           "ru": "Свяжитесь с нами"
         },
-        "designation": "Telefon: <a href='tel:+497652 1331' style='color:white'>07652 - 13 31</a><br>Fax: 07652 - 13 31<br>E-Mail: <a href='mailto:za.hinterzarten@gmx.de' style='color:white'>za.hinterzarten@gmx.de</a><br></br>"
+        "designation": "Telefon: <a href='tel:+4976521331' style='color:white'>07652 / 1331</a><br>Fax: 07652 / 1331<br>E-Mail: <a href='mailto:za.hinterzarten@gmx.de' style='color:white'>za.hinterzarten@gmx.de</a><br></br>"
       },
       {
         "title": {
