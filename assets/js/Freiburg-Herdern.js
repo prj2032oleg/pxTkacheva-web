@@ -264,7 +264,7 @@ const Freiburg = [{
           "de": "Kontakt",
           "ru": "Свяжитесь с нами"
         },
-        "designation": "Telefon: <a href='tel:+4976136331' style='color:white'>0761 / 36331</a><br>Fax: 0761 / 47896<br>E-Mail: <a href='mailto:fr@px-tkacheva.de' style='color:white'>fr@px-tkacheva.de</a><br>"
+        "designation": "Telefon: <a href='tel:+4976136331' style='color:white'>0761 / 36331</a><br>Fax: 0761 / 57896<br>E-Mail: <a href='mailto:fr@px-tkacheva.de' style='color:white'>fr@px-tkacheva.de</a><br>"
       },
       {
         "title": {
