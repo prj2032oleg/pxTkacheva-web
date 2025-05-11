@@ -183,17 +183,6 @@ const Hinterzarten = [{
       {
         "src": "assets/images/tkacheva/team/v3/t1v3.png",
         "title": {
-          "de": "Maria Rombach",
-          "ru": "Maria Rombach"
-        },
-        "designation": {
-          "de": "Stuhlassistenz",
-          "ru": "Stuhlassistenz"
-        }
-      },
-      {
-        "src": "assets/images/tkacheva/team/v3/t1v3.png",
-        "title": {
           "de": "Maria Kreiler",
           "ru": "Maria Kreiler"
         },
